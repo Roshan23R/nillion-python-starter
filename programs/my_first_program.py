@@ -19,6 +19,7 @@ def nada_main():
         Output(division_result, "division_result", party1),
     ]
 
+
     
 # def nada_main():
 #     # Define the party (Hospital in this case)
