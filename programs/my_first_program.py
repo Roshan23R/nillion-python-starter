@@ -18,3 +18,23 @@ def nada_main():
         Output(multiplication_result, "multiplication_result", party1),
         Output(division_result, "division_result", party1),
     ]
+
+    
+# def nada_main():
+#     # Define the party (Hospital in this case)
+#     hospital = Party(name="Hospital")
+    
+#     # Secret inputs for patient's hospitalization data
+#     total_days_in_hospital = SecretInteger(Input(name="total_days_in_hospital", party=hospital))
+#     days_in_ICU = SecretInteger(Input(name="days_in_ICU", party=hospital))
+#     total_medical_expenses = SecretInteger(Input(name="total_medical_expenses", party=hospital))
+
+#     # Perform basic arithmetic operations
+#     average_cost_per_day = total_medical_expenses / total_days_in_hospital
+#     ratio_of_ICU_days = days_in_ICU / total_days_in_hospital
+
+#     # Output the results to the hospital
+#     return [
+#         Output(average_cost_per_day, "average_cost_per_day", hospital),
+#         Output(ratio_of_ICU_days, "ratio_of_ICU_days", hospital),
+#     ]
